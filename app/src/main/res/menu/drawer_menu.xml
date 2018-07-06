@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/showgyms"
+            android:title="@string/show_gyms_in_network"
+            />
+
+        <item
+            android:id="@+id/startsession"
+            android:title="@string/start_a_session"
+            />
+
+        <item
+            android:id="@+id/sessions"
+            android:title="@string/view_past_sessions"
+            />
+        <item
+            android:id="@+id/findgym"
+            android:title="@string/show_nearby_gyms"
+            />
+
+        <item
+            android:id="@+id/profile"
+            android:title="@string/show_profile"
+            />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout"
+            />
+
+    </group>
+
+</menu>
