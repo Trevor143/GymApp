@@ -53,7 +53,9 @@ public class SessionActivity extends AppCompatActivity {
         Log.d(TAG, "parseSession: User Id is "+USER_ID);
 
 
-        String url ="http://b62d1a04.ngrok.io/api/showsession/"+USER_ID;
+//        String url ="http://b62d1a04.ngrok.io/api/showsession/"+USER_ID;
+        String url ="http://gymappapi.000webhostapp.com/api/showsession/"+USER_ID;
+
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {

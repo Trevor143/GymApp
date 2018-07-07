@@ -31,7 +31,9 @@ public class RegisterActivity extends Activity {
     private EditText name, email, gender, password, c_password;
     private Button btn_register;
     private ProgressBar loading;
-    private static String URL_REGISTER = "http://b62d1a04.ngrok.io/api/register";
+//    private static String URL_REGISTER = "http://b62d1a04.ngrok.io/api/register";
+private static String URL_REGISTER = "http://gymappapi.000webhostapp.com/api/register";
+
 
 
     @Override

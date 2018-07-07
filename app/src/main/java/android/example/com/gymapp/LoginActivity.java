@@ -35,7 +35,9 @@ public class LoginActivity extends AppCompatActivity {
     private Button btn_login;
     private TextView link_register;
     private ProgressBar loading;
-    private  static String URL_LOGIN = "http://b62d1a04.ngrok.io/api/login";
+//    private  static String URL_LOGIN = "http://b62d1a04.ngrok.io/api/login";
+    private  static String URL_LOGIN = "http://gymappapi.000webhostapp.com/api/login";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

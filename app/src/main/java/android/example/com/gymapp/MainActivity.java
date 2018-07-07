@@ -45,7 +45,9 @@ public class MainActivity extends AppCompatActivity implements GymAdapter.OnItem
     }
 
     private void parseJSON() {
-        String url = "http://b62d1a04.ngrok.io/api/gyms/";
+//        String url = "http://b62d1a04.ngrok.io/api/gyms/";
+        String url = "http://gymappapi.000webhostapp.com/api/gyms/";
+
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
